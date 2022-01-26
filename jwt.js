@@ -497,6 +497,6 @@ function fastifyJwt (fastify, options, next) {
 }
 
 module.exports = fp(fastifyJwt, {
-  fastify: '>=3.0.0',
+  fastify: '>=4.0.0-dev',
   name: 'fastify-jwt'
 })
